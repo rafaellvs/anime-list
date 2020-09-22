@@ -1,0 +1,46 @@
+@import "~antd/dist/antd.less";
+
+@primary-color: #1890ff; // primary color for all components
+@link-color: #1890ff; // link color
+@font-size-base: 14px; // major text font size
+@heading-color: #ffffff; // heading text color
+@text-color: #ffffff; // major text color
+@border-radius-base: 0; // major border radius
+@table-header-bg: @primary-color;
+@table-header-color: black;
+
+// table
+.ant-table-content,
+.ant-pagination-item a, 
+.ant-pagination-item-link:not([disabled]) span {
+  color: black;
+}
+
+.ant-pagination-item-active a {
+  color: @primary-color;
+}
+
+.ant-table-pagination.ant-pagination {
+  margin-bottom: 0;
+}
+
+.ant-table tr th {
+  color: @text-color;
+}
+
+.ant-table tr[data-row-key]:not([data-row-key='']):hover {
+  cursor: pointer;
+}
+
+.ant-table-cell .ant-typography {
+  margin: 0;
+  color: black;
+}
+
+.ant-pagination-options {
+  display: none;
+}
+
+.ant-pagination-item-ellipsis, .ant-pagination-item-link-icon {
+  color: white !important;
+}

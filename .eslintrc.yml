@@ -1,0 +1,27 @@
+env:
+  browser: true
+  es2021: true
+extends:
+  - 'plugin:react/recommended'
+  - standard
+parserOptions:
+  ecmaFeatures:
+    jsx: true
+  ecmaVersion: 12
+  sourceType: module
+plugins:
+  - react
+rules:
+  comma-dangle: [error, 
+    {
+      objects: always-multiline, 
+      arrays: always-multiline, 
+      imports: always-multiline, 
+      exports: always-multiline,
+    }
+  ]
+  react/react-in-jsx-scope: off
+  react/display-name: off
+  react/jsx-no-target-blank: off
+  node/no-deprecated-api: off
+
