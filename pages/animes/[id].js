@@ -29,7 +29,7 @@ const AnimePage = () => {
 
   return (
     <Layout>
-      {isLoading && <Title>Loading...</Title>}
+      {isLoading && <Title align='center'>Loading...</Title>}
 
       {
         !isLoading &&
