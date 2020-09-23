@@ -10,8 +10,9 @@ Deployed at https://anime-list.vercel.app/
 - less
 - eslint
 
-## run project
+## run locally
 run `yarn`
+
 run `yarn dev`
 
 ## structure
