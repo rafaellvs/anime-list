@@ -25,7 +25,7 @@ const Animes = () => {
         setPagination({
           ...pagination,
           current: current || pagination.current,
-          total: res.meta.count,
+          total: res.meta.count - pagination.pageSize,
         })
         setData(res.data)
         setIsLoading(false)
