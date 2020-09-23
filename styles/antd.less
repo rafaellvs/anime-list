@@ -41,6 +41,23 @@
   display: none;
 }
 
-.ant-pagination-item-ellipsis, .ant-pagination-item-link-icon {
+.ant-pagination-item-ellipsis, 
+.ant-pagination-item-link-icon {
   color: white !important;
+}
+
+.ant-pagination-prev,
+.ant-pagination-next,
+.ant-pagination-jump-prev,
+.ant-pagination-jump-next,
+.ant-pagination-item {
+  @media (max-width: 360px) {
+    margin: 0.5rem 0;
+  }
+}
+
+.ant-table {
+  @media (max-width: 360px) {
+    overflow-x: scroll;
+  }
 }

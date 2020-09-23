@@ -11,5 +11,16 @@
   max-width: 1200px;
   background: rgba(0, 0, 0, 0.8);
   padding: 3rem;
-  margin: calc(3rem + 50px) 0 3rem;
+  margin: calc(3rem + 50px) 3rem 3rem;
+
+  @media (max-width: 1024px) {
+    min-width: 80%;
+    margin: calc(2rem + 50px) 2rem 2rem;
+    padding: 2rem;
+  }
+
+  @media (max-width: 360px) {
+    margin: calc(1.5rem + 50px) 1.5rem 1.5rem;
+    padding: 1.5rem;
+  }
 }

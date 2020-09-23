@@ -1,5 +1,9 @@
 .info {
   display: flex;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
 }
 
 .name-info {
@@ -14,6 +18,11 @@
 
   h4 {
     margin-top: 0 !important;
+  }
+
+  @media (max-width: 768px) {
+    text-align: center;
+    padding: 0 0 2rem 0;
   }
 }
 

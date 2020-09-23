@@ -15,12 +15,14 @@ export const columns = [
     title: 'Name',
     dataIndex: 'name',
     key: 'name',
+    width: 200,
     render: name => <Title level={5}>{name}</Title>,
   },
   {
     title: 'Synopsis',
     dataIndex: 'synopsis',
     key: 'synopsis',
+    width: 200,
     ellipsis: true,
   },
   {
