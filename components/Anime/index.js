@@ -19,12 +19,12 @@ const Anime = data => {
       <div className='general-info'>
         <Title level={5}>Rating Rank: </Title>
         <Text>
-          {attributes.ratingRank}
+          {attributes.ratingRank || '-'}
         </Text>
 
         <Title level={5}>Rating: </Title>
         <Text>
-          {attributes.averageRating}
+          {attributes.averageRating || '-'}
         </Text>
 
         {
