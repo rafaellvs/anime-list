@@ -44,20 +44,4 @@ styles for components and antd (also antd variables)
 ### public
 bg image
 
-### notes
-first time working with next, antd and less
-
-I didnt use next pre-rendering because I didnt think it was wise to generate 15k static pages (is it a good idea?)
-
-Im used to `styled-components`, so i dont know if the styling structure is good
-
-Im not used to UI libs, so I did by best to style antd components (at styles/antd.less). Not sure if thats the best way
-
-I had a little trouble making everything work together. Used these:
-
-https://medium.com/@tanakorn0412/customize-ant-design-theme-in-next-js-version-9-5958fbc531a3
-
-https://dev.to/burhanuday/using-ant-design-with-nextjs-custom-variables-for-ant-design-57m5
-
-
 
